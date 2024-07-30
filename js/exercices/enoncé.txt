@@ -1,0 +1,35 @@
+Les listes
+
+
+Devine le nombre version complète
+----------------------------------
+
+-> Reprendre l'algorithme "Devine le nombre" et le traduire en JS
+- Découper le code en fonctions claires
+	-> Se poser la question : quelles sont les étapes du jeu ?
+- Ajouter un système de score : + 1 point l'utilisateur•trice si iel gagne, + 1 point pour l'ordi dans le cas contraire.
+
+- Afficher un système de commandes :
+	- score : affiche le score ( n'importe quand )
+    - pause: enregistre la partie ( uniquement si une partie est en cours, sinon, on affiche un message d'erreur )
+
+Au début du jeu, on demande à l'utilisateur si il souhaite jouer. Il peut répondre OUI, ou NON
+Si il a une partie en cours, on lui demande si il veut reprendre la partie en cours, il peut répondre OUI ou NON
+Si il répond non, on commence une nouvelle partie, si il répond oui, on reprend la partie en cours.
+Si l'utilisateur entre autre chose qu'un nombre, ou une commande, on affiche un message d'erreur.
+
+=> Essayer d'utiliser le moins de lignes de code possible.
+
+
+-----
+En groupe de 2 ( mixe en terme de niveau )
+
+Tic Tac Toe
+
+Faire un morpion.
+L'utilisateur peut placer une croix dans la matrice ( en choisissant sur l'axe XY)
+Si l'emplacement n'est pas libre, afficher un message d'erreur
+Sinon, ajouter la croix, et donner son tour à l'ordinateur.
+L'ordinateur "choisi" de manière random une position libre
+
+Si trois formes identiques se suivent, le jeu est terminé.
